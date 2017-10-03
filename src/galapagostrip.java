@@ -27,14 +27,14 @@ public class galapagostrip {
 		}
 
 		for (int i = 0; i<royalPalm/50; i++) {
-			stars1 = stars1+ "*";
+			stars1 += "*";
 		}
 		for (int i = 0; i < finchBay/50; i++){
-			stars2 = stars2 + "*";
+			stars2 += "*";
 		}
 		for (int i =0; i < casaNatura/50; i++){
-			stars3= stars3 + "*";
+			stars3 += "*";
 		}
-		JOptionPane.showMessageDialog(null, "Costs of the Hotels:"+ "\n" + "Royal Palm Hotel: " + stars1 + "\n" + "Finch Bay Hotel: " + stars2 + "\n" + "Casa Natura Hotel: " + stars3);
+		JOptionPane.showMessageDialog(null, "Costs of the Hotels (by 50$):"+ "\n" + "Royal Palm Hotel: " + stars1 + "\n" + "Finch Bay Hotel: " + stars2 + "\n" + "Casa Natura Hotel: " + stars3);
 	}
 }
